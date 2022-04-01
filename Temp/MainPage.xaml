@@ -10,7 +10,6 @@
         <Label 
             Text="Click to bug out background."
             Grid.Row="0"
-            SemanticProperties.HeadingLevel="Level1"
             FontSize="32"
             HorizontalOptions="Center" />
 
@@ -22,11 +21,10 @@
             Clicked="OnToggleClicked"
             HorizontalOptions="Center" />
         <Label 
-            Text="This will update, background will not."
+            Text="My background will update, page background will not."
             Grid.Row="2"
-            SemanticProperties.HeadingLevel="Level1"
             FontSize="32"
             HorizontalOptions="Center"
-            TextColor="{AppThemeBinding Dark=Blue, Light=Red}"/>
+            BackgroundColor="{AppThemeBinding Dark=Blue, Light=Red}"/>
     </Grid>
 </ContentPage>
